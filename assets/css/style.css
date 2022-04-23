@@ -48,7 +48,8 @@
 
   header nav {
     margin: 10px 0;
-    width: 30%;
+    width:40%;
+    text-align: center;
   }
 
   header nav ul { 
@@ -280,7 +281,7 @@
           width: 100%;
         }
       
-          .hero-text, .hero-form {
+          .hero-text, .contact-form {
             width: 100%;
           }
           
