@@ -242,7 +242,7 @@
     text-align: center;
     margin: 0 auto 15px auto;
     width: 25%;
-    font-style: italic;
+    font-style: ;
     text-shadow: 0 0 10px rgba(255,255,255, 0.5);
     }
 
@@ -347,15 +347,19 @@
         }
       
           .hero-text, .contact-form {
-            width: 100%;
+            width: 80%;
           }
           
           .hero-text {
             text-align: center;
           }
-      
+
+         .hero h2 {
+              font-size: 28px;
+          }
           .sectiontitle {
             width: 80%;
+            font-size: 28px;
           }
           
           .workimage, .worktext {
@@ -373,21 +377,28 @@
           .sectionsubtitle {
             width: 80%;
             text-align: center;
+            font-size: 24px;
           }
 
           .worksamples .sectiontitle {
             max-height: 10%;
         }
+
+
+          .descriptions {
+              width: 80%;
+          }
+
+
       }
       
-      /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  
       @media screen and (max-width: 768px) {
         section {
           padding: 30px 15px;
         }
       
       
-      /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
       @media screen and (max-width: 575px) {
         .contact-form button {
           width: 100%;
