@@ -227,7 +227,11 @@
 
   .intro {
       background-color: var(--background);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
   }
+
 
   .intro p {
     color: var(--textcolor);
@@ -240,6 +244,10 @@
 
   .intro p a {
       color: var(--textcolor)
+  }
+
+  .intro img {
+      padding-bottom: 10px;
   }
 
 .sectiontitle {
