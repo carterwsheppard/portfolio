@@ -55,7 +55,7 @@
 
   header nav {
     margin: 10px 0;
-    width:40%;
+    width:50%;
     text-align: center;
   }
 
@@ -271,6 +271,18 @@
     text-shadow: 0 0 10px rgba(255,255,255, 0.5);
     }
 
+    .sectionsubtitle2 {
+        font-size: 28px;
+    border-bottom: 4px solid;
+    color: var(--textcolor);
+    background-color: var(--background);
+    text-align: left;
+    padding-bottom: 10px;
+    width: 45%;
+    font-style: italic;
+    text-shadow: 0 0 10px rgba(255,255,255, 0.5);
+    }
+
     .border {
         border-color: var(--turq);
     }
@@ -310,6 +322,7 @@
           display: flex;
           justify-content: space-between;
           align-items: flex-start;
+          vertical-align: ;
       }
 
       .worktext {
